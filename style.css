@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+:root {
+    --duration : 1s;
+    --first_color : #30336B;
+    --second_color : #4267B2 ;  
+}
+
+*{
+    box-sizing: border-box;
+}
+body { 
+        transition: transform 0.4s ease;
+            transition: display  0.3s;
+        font-family: 'Open Sans', sans-serif;
+        background: url(landing.jpeg);
+}
+
+.show-nav {
+     transform : translate(0);
+    transition: transform 0.4s ;
+
+    
+}
+body p {
+    font-size: 25px;
+}
+.big_boy {
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: darkcyan;
+    border : 1px solid black;
+    color : white;
+    position: fixed;
+    top : 0px;
+    left: 0px;
+    width: 200px;
+    height : 100vh;
+    z-index: 1;
+     transform: translateX(-100%) ;
+     transition: transform 0.4s ;
+    
+    
+}
+.partie_4 ,.partie_3 ,.partie_2 ,.partie_1 {
+    transition: margin-left  0.4s; 
+}
+
+
+
+.logo{
+    text-align: center;
+    padding: 15px;
+}
+
+#owner {
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+    
+}
+nav > ul > li {
+  list-style: none;
+    border-bottom: 2px solid rgb(200,200,200,0.1);
+    padding: 10px;
+     
+}
+nav > ul > li:first-child {
+  list-style: none;
+    border-top: 2px solid rgb(200,200,200,0.1);
+     
+}
+nav ul {
+     padding : 0;
+      margin : 0;
+}
+
+.marmov {
+ margin-left: 200px;
+        transition: margin-left  0.4s ; 
+}
+
+nav > ul > li > a {
+ text-decoration: none;
+    color : white;}
+    .big_boy {
+        width: 150px;
+        height: auto;
+        font-size: 30px;
+        
+    
+}
+nav > ul > li > a:hover{
+ text-decoration: underline;    
+}
+
+
+.partie_1 {
+    text-align: center;
+    padding: 20px;
+    position: relative;  
+
+}
+.partie_1 > h1{
+    margin : 0;
+    font-size: 230%;
+    text-align: center;
+
+}
+.partie_1 p{
+    margin : 30px;
+    font-size: 130%;
+    text-align: center;
+
+}
+button , input[type="submit"] {
+    background-color: deepskyblue;
+    border-radius: 5px;
+    border : 2px deepskyblue;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-family: sans-serif;
+    
+}
+button , input[type="submit"]:focus {
+    outline: none;
+} 
+
+
+.iheb {
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    top : 20px;
+    left: 20px;
+}
+.partie_4 p{
+    text-align: left;
+    padding: 0;
+    
+}
+
+#form {
+     display: none; 
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: display  0.3s;
+}
+form {background-color: white;
+    border-radius: 7px;
+    position: absolute;
+    overflow: hidden;
+    top : 50%;
+    left :50% ;
+    box-shadow:  rgba(48, 51, 107,0.1);
+    transform: translate(-50%,-50%);
+    width: 400px;
+    max-width: 100%
+        
+}
+.form_sign {
+ background-color: lightskyblue;
+    margin : 0px;
+}
+  h3 {
+      padding: 10px;
+          color : white ;
+}
+
+
+ p {
+    font-size: 3px;
+    text-align: center;
+}
+
+.bot{
+    font-size: 25px;
+    
+   
+}
+form label {
+display: block;
+    margin-bottom: 5Px;
+    margin-left: 0px;
+    font-weight: 10px;
+}
+form div {
+    margin : 10px;
+}
+form input[type="text"],input[type="password"],input[type="email"] {
+    height: 30px;
+    width: 70%;
+}
+input{
+}
+.remake {
+    margin : 0;
+}
+.btn-close {
+
+position: absolute;
+right : 0px;
+top : 0px;
+cursor :pointer;
+}
+.x{
+    background-color: white;
+} 
+.nigga {
+    width : 100%;
+    height: 35px;
+}
